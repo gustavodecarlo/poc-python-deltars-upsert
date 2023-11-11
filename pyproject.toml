@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poc-python-deltars-upsert"
+version = "0.1.0"
+description = ""
+authors = ["Gustavo Decarlo <gustavodecarlo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poc_python_deltars_upsert"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+deltalake = "^0.13.0"
+polars = "^0.19.13"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
