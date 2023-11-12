@@ -22,3 +22,13 @@ Install the project
 poetry install
 mkdir data
 ```
+
+Configure Redpanda Kafka
+
+```bash
+docker compose up -d
+```
+
+## Reference
+
+- [deltars python](https://delta.io/blog/2023-10-22-delta-rs-python-v0.12.0/)
